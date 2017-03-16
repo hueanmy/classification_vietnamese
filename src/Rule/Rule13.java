@@ -14,14 +14,14 @@ public class Rule13 extends Rule {
         if(check=true){
             if(!"n c".contains(x.charAt(x.length()-2)+"")){
                 if("h".contains(x.charAt(x.length()-1)+""))
-                    return false;
+                    check = false;
             }
             if(!"n".contains(x.charAt(x.length()-2)+"")){
                 if("g".contains(x.charAt(x.length()-1)+""))
-                    return false;
+                    check = false;
             }
         }
-        return true;
+        return check;
     }
 
     @Override

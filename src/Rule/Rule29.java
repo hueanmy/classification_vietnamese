@@ -17,9 +17,9 @@ public class Rule29 extends Rule{
         }
         if(check=true){
             if(x!="giữ")
-                return false;
+                check= false;
         }
-        return true;
+        return check;
     }
 
     @Override

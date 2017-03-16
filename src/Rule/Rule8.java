@@ -17,18 +17,20 @@ public class Rule8 extends Rule {
             + "ỳýỵỷỹ"
             ;
         boolean check = false;
-        if(character.contains(x.charAt(0)+"")) {
-            if (nguyeam.contains(x.charAt(1) + ""))
-                return true;
-            else
+        if("c".contains(x.charAt(0)+"")) {
+            if (constants.contains(x.charAt(1) + "")) {
                 check = true;
-
+            }
+            else {
+                return true;
+            }
         }
         if(check = true){
-            if(!"h".contains(x.charAt(1)+""))
-                return false;
+            if(!"h".contains(x.charAt(1)+"")) {
+                check = false;
+            }
         }
-        return true;
+        return check;
     }
 
     @Override
