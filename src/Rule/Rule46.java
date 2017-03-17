@@ -20,26 +20,23 @@ public class Rule46 extends Rule{
             + "àáạảã" + "â" + "ầấậẩẫ" + "ă" + "ằắặẳẵ"
             + "ỳýỵỷỹ"
             ;
-        for(int i=0;i<x.length()-1;i++){
+        for(int i=0;i<x.length();i++){
             if(VowelCharacters.contains(x.charAt(i)+"")){
                 count++;
             }
         }
+        System.out.println("count" + count);
         if(count==3){
             for(int i=0;i<x.length()-1;i++){
                 if("i".contains(x.charAt(i)+"")){
-                    if(word2.contains(x.charAt(i+1)+"")){
-                        if(word3.contains(x.charAt(i+2)+"")){
                             check = true;
                             break;
-                        }
-                    }
                 }
             }
         }
         if(check==true){
             for(String c : words){
-                if(x.contains(c)){
+               if(x.contains(c)){
                     check = true;
                     break;
                 }

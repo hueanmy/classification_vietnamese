@@ -11,11 +11,11 @@ public class Main {
     protected ArrayList<Rule> listRules;
 
     public static void main(String[] args) {
-        String[] arrayWords = new String[] {"hio"};
+        String[] arrayWords = new String[] {"nhiễu"};
         Main m = new Main();
         m.listRules = new ArrayList<>();
 
-        m.listRules.add(new Rule29B());
+        m.listRules.add(new Rule46());
         for (String word : arrayWords) {
             for (Rule rule : m.listRules){
                 if(!rule.isValid(word)){
