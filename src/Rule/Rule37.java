@@ -31,7 +31,8 @@ public class Rule37 extends Rule {
 
 
     @Override
-    public void showError () {
-        System.out.println("Rule37 error");
+    public String showError () {
+
+        return ("Nguyên âm \"ễu\" chỉ được phép đi trong từ \"Tễu\" và \"phễu\"");
     }
 }

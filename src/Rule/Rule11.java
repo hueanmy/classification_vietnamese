@@ -40,8 +40,7 @@ public class Rule11 extends Rule {
         return true;
     }
 
-    @Override
-    public void showError() {
-        System.out.println("Rule11 error");
+    public String showError() {
+        return ("Có một số phụ âm được phép đứng cuối nhưng nó phải đi kèm với một phụ âm khác:nh, ch, ng,");
     }
 }

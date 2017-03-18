@@ -31,8 +31,7 @@ public class Rule6 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule6 error");
-
+    public String showError() {
+        return ("Các nguyên âm trong từ phải đứng cạnh nhau, không có phụ âm chen vào giữa");
     }
 }

@@ -15,7 +15,7 @@ public class Main {
         Main m = new Main();
         m.listRules = new ArrayList<>();
 
-        m.listRules.add(new Rule46());
+        m.listRules.add(new Rule2());
         for (String word : arrayWords) {
             for (Rule rule : m.listRules){
                 if(!rule.isValid(word)){

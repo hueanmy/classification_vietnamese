@@ -31,7 +31,7 @@ public class Rule16 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule16 error");
+    public String showError() {
+        return ("Chỉ có một số nguyên âm được phép đứng đằng sau \"ã\" để tạo thành cặp nguyên âm:ãi, ão, ãy");
     }
 }

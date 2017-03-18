@@ -32,7 +32,8 @@ public class Rule24 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule24 error");
+    public String showError() {
+
+        return ("Chỉ có một số nguyên âm được phép đứng đằng sau \"ậ\" để tạo thành cặp nguyên âm: ậu, ậy");
     }
 }

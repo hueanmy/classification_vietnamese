@@ -52,8 +52,7 @@ public class Rule9 extends Rule {
         return true;
     }
 
-    @Override
-    public void showError() {
-        System.out.println("Rule9 error");
+    public String showError() {
+        return ("Nếu một từ có 2 phụ âm cạnh nhau thì các phụ âm đó phải là: tr, th, ph, gh, kh, ch, nh, ng,");
     }
 }

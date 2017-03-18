@@ -17,7 +17,8 @@ public class Rule43 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule43 error");
+    public String showError() {
+
+        return ("Nguyên âm \"u\" đi đằng sau sẽ là các nguyên âm \"i\", \"a\", \"y\", \"ê\", \"ở\",  \"ế\"");
     }
 }

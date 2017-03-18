@@ -24,8 +24,8 @@ public class Rule14 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule14 error");
+    public String showError() {
+        return ("tất cả những nguyên âm nào có dấu thì không được đi sau a: aa, aô, aê, aư, aơ, aă, aâ, ae");
 
     }
 }

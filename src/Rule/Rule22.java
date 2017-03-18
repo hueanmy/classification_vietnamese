@@ -31,7 +31,7 @@ public class Rule22 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule22 error");
+    public String showError() {
+        return ("Chỉ có một số nguyên âm được phép đứng đằng sau \"ẩ\" để tạo thành cặp nguyên âm: ẩu, ẩy");
     }
 }

@@ -29,7 +29,8 @@ public class Rule28 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule28 error");
+    public String showError() {
+
+        return ("Các nguyên âm được phép sau nguyên âm \"i\": ia, iu, iê, iế, iệ, iể, iễ, iề,");
     }
 }

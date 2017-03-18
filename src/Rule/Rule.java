@@ -5,5 +5,5 @@ package Rule;
  */
 public abstract class Rule {
     public abstract boolean isValid(String x);
-    public abstract void showError();
+    public abstract String showError();
 }

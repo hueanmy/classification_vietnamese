@@ -30,7 +30,8 @@ public class Rule20 extends Rule {
     }
 
     @Override
-    public void showError() {
+    public String showError() {
 
+        return ("Chỉ có một số nguyên âm được phép đứng đằng sau \"â\" để tạo thành cặp nguyên âm: âu, ây");
     }
 }

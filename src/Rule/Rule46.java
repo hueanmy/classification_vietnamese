@@ -49,7 +49,8 @@ public class Rule46 extends Rule{
     }
 
     @Override
-    public void showError() {
-        System.out.println("rule46 error");
+    public String showError() {
+        return ("Các nguyên âm ba có thể xuất hiện được trong tiếng Việt mà nguyên âm đầu tiên là \"i\" " +
+                "là: iữa, iễu, iếu, iều, iểu, iêu, iệu, iai, iải, iới, iỏi, iươ, iườ, iòi,");
     }
 }

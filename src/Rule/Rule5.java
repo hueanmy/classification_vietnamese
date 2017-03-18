@@ -28,8 +28,7 @@ public class Rule5 extends Rule{
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule5 error");
-
+    public String showError() {
+        return ("Một từ tiếng Việt tối đa là 3 nguyên âm");
     }
 }

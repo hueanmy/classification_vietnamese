@@ -31,7 +31,7 @@ public class Rule18 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule18 error");
+    public String showError() {
+        return ("Chỉ có một số nguyên âm được phép đứng đằng sau \"ả\" để tạo thành cặp nguyên âm: ải, ảo, ảy.");
     }
 }

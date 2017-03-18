@@ -23,7 +23,7 @@ public class Rule3 extends Rule{
     }
 
     @Override
-    public void showError() {
-
+    public String showError() {
+        return ("Trong tiếng Việt chỉ có các chữ cái viết thường sau: qrtpsd đ g h k l x c v b n m, aeiuoy, â ấ ă ắ ơ ư ...");
     }
 }

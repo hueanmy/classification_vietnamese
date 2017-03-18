@@ -24,7 +24,8 @@ public class Rule19 extends Rule{
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule19 error");
+    public String showError() {
+
+        return ("Nếu có \"ảu\" thì từ này bắt buộc phải nằm trong từ \"nhảu\"");
     }
 }

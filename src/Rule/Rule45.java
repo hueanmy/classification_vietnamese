@@ -16,7 +16,7 @@ public class Rule45 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule45 error");
+    public String showError() {
+        return ("sau ũ có chỉ có các ký tự: y,i,m,n");
     }
 }

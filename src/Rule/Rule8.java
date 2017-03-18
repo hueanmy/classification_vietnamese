@@ -34,8 +34,7 @@ public class Rule8 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("rule8 error");
-
+    public String showError() {
+        return ("Nếu một từ có phụ âm c đứng đầu thì phụ âm sau nó (nếu có) phải là H");
     }
 }

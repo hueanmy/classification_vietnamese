@@ -28,7 +28,10 @@ public class Rule30_31_33 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule30_31_33 error");
+    public String showError() {
+
+        return ("Các nguyên âm được phép sau nguyên âm \"ì\": ìu, ìa, " +
+                "Các nguyên âm được phép sau nguyên âm \"ỉ\": ỉu, mỉa," +
+                "Các nguyên âm được phép sau nguyên âm \"ĩ\": ĩu, ĩa,");
     }
 }

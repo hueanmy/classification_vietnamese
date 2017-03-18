@@ -25,7 +25,7 @@ public class Rule13 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule13 error");
+    public String showError() {
+        return ("Các nguyên âm trong từ phải đứng cạnh nhau, không có phụ âm chen vào giữa");
     }
 }

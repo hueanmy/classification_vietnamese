@@ -19,9 +19,9 @@ public class Rule7 extends Rule {
         else
             return true;
     }
-
     @Override
-    public void showError() {
-        System.out.println("rule7 error");
+
+    public String showError() {
+        return ("Một từ tiếng Việt có tối đa 5 phụ âm: nghiêng");
     }
 }

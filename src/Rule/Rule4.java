@@ -24,8 +24,7 @@ public class Rule4 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule4 error");
-
+    public String showError() {
+        return ("Một từ trong tiếng Việt có tối thiểu 1 nguyên âm (tính cả có dấu) và y là nguyên âm");
     }
 }

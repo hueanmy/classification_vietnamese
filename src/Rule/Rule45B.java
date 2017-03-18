@@ -17,7 +17,7 @@ public class Rule45B extends Rule{
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule45B error");
+    public String showError() {
+        return ("Nguyên âm \"ư\" đứng đầu và nguyên âm khác đi sau là : a , ơ , ở , ợ , ờ , ớ , n");
     }
 }

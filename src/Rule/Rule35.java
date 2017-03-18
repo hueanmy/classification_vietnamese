@@ -25,7 +25,8 @@ public class Rule35 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule35 error");
+    public String showError() {
+
+        return ("Các nguyên âm được phép sau \"e\", \"é\", \"è\", \"ẻ\", \"ẹ\", \"ẽ\" thì chỉ có: \"o\"");
     }
 }

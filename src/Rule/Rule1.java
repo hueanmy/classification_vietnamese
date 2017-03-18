@@ -17,7 +17,7 @@ public class Rule1 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Mot so phu am chi duoc phep dung dau  q s d đ k l x v b");
+    public String showError() {
+        return ("Có một số phụ âm chỉ được phép đứng đầu từ: q, s, d, đ, k, l, x, v, b");
     }
 }

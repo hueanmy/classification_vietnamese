@@ -29,7 +29,9 @@ public class Rule29B extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule29B error");
+    public String showError() {
+
+        return ("Nguyên âm i được phép đi cùng \"ó\", \"ố\", \"ỗ\", \"ọ\", \"ỏ\", \"ò\", \"á\", \"ấ\", \"ặ\" :" +
+                "\"gió\" , \"giống\", \"giỗ\", \"giọng\", \"giỏ\", \"giò\", \"giá\", \"giấc\", \"giặc\"");
     }
 }

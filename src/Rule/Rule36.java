@@ -26,7 +26,8 @@ public class Rule36 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule36 error");
+    public String showError() {
+
+        return ("Các nguyên âm được phép sau \"ê\", \"ế\", \"ề\", \"ệ\",  thì chỉ có: \"u\"");
     }
 }

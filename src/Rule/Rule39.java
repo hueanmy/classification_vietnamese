@@ -17,7 +17,8 @@ public class Rule39 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule39 error");
+    public String showError() {
+
+        return ("Nguyên âm sau \"o\" để tạo thành cặp nguyên âm: \"oa\", \"oi\", \"oe\",");
     }
 }

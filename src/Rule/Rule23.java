@@ -31,7 +31,8 @@ public class Rule23 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule23 error");
+    public String showError() {
+
+        return ("Chỉ có một số nguyên âm được phép đứng đằng sau \"ẫ\" để tạo thành cặp nguyên âm: ẫu, ẫy");
     }
 }

@@ -16,8 +16,7 @@ public class Rule2 extends Rule{
     }
 
     @Override
-    public void showError() {
-        System.out.println("Luat 2 sai");
-
+    public String showError() {
+        return ("Một số chữ trên bàn phím không xuất hiện trong tiếng việt w,z,j,f");
     }
 }

@@ -25,7 +25,7 @@ public class Rule38 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule38 error");
+    public String showError() {
+        return ("Nguyên âm \"ể\" không có nguyên âm khác đi sau.");
     }
 }

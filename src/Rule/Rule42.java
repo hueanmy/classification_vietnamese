@@ -26,7 +26,8 @@ public class Rule42 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule42 error");
+    public String showError() {
+
+        return ("Nguyên âm \"ô\", \"ố\", \"ồ\", \"ổ\", \"ộ\", \"ỗ\" thì chỉ có đằng sau là nguyên âm \"i\"");
     }
 }

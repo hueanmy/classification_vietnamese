@@ -26,7 +26,8 @@ public class Rule26_27 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule26_27 error");
+    public String showError() {
+
+        return ("Cũng tương tự như thế, không có nguyên âm nào đằng sau \"ằ\", \"ắ\", \"ẵ\", \"ẳ\", \"ặ\"");
     }
 }

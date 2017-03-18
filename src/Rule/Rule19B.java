@@ -30,7 +30,8 @@ public class Rule19B extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule19B error");
+    public String showError() {
+
+        return ("Chỉ có một số nguyên âm được phép đứng đằng sau \"à\" để tạo thành cặp nguyên âm: ài, àu, ào, ày");
     }
 }

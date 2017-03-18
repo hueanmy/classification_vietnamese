@@ -33,7 +33,7 @@ public class Rule45C extends Rule{
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule45C error");
+    public String showError() {
+        return ("Nếu nguyên âm ử đi sau là nguyên âm i, a thì chỉ có các từ: ngửi,gửi,chửi,ngửa,lửa,cửa,mửa,thửa,cửi");
     }
 }

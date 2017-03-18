@@ -23,7 +23,8 @@ public class Rule29 extends Rule{
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule29 error");
+    public String showError() {
+
+        return ("Nguyên âm i được phép đi cùng \"ữ\", nhưng đó phải là từ \"giữ\" ");
     }
 }

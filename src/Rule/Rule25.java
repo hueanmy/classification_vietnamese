@@ -31,7 +31,8 @@ public class Rule25 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule25 error");
+    public String showError() {
+
+        return ("Chỉ có một số nguyên âm được phép đứng đằng sau \"ầ\" để tạo thành cặp nguyên âm: ầu, ầy");
     }
 }

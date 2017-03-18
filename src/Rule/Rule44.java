@@ -22,7 +22,7 @@ public class Rule44 extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule44 error");
+    public String showError() {
+        return (" Nguyên âm \"ú\", \"ù\", \"ủ\", \"ụ\" đi đằng sau sẽ là các nguyên âm \"i\", \"a\", \"y\",");
     }
 }

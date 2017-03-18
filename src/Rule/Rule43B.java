@@ -29,7 +29,9 @@ public class Rule43B extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule43B error");
+    public String showError() {
+
+        return ("Nguyên âm \"ý\", \"e\" và \"ơ\", \"á\", \"ả\", \"ạ\" \"à\" cũng đi sau \"u\" được " +
+                "nhưng đó phải là các từ \"quý\" \"que\", quơ, \"huơ\", \"quá\" quả, quạ, quà");
     }
 }

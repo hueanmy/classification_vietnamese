@@ -30,7 +30,7 @@ public class Rule45A extends Rule {
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule45A error");
+    public String showError() {
+        return ("Nguyên âm \"ũ\" đi sau là y được. Nhưng đi sau là \"a\" với các trường hợp \"đũa\", \"dũa\"");
     }
 }

@@ -23,7 +23,8 @@ public class Rule41B extends Rule{
     }
 
     @Override
-    public void showError() {
-        System.out.println("Rule41B error");
+    public String showError() {
+
+        return ("Nguyên âm \"ỡ\" nếu đi sau nó là \"i\" thì từ đó phải là \"hỡi\"");
     }
 }

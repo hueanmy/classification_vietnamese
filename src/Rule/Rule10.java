@@ -30,8 +30,7 @@ public class Rule10 extends Rule {
         return true;
     }
 
-    @Override
-    public void showError() {
-        System.out.println("Rule10 error");
+    public String showError() {
+        return ("Nếu một từ có 3 phụ âm cạnh nhau => đó phải là ngh");
     }
 }
